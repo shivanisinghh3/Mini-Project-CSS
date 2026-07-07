@@ -17,6 +17,7 @@
     position: absolute;
     left: 16px;
     line-height: 60px;
+    cursor: pointer;
 }
 
 .sidebar_menu {
@@ -51,13 +52,14 @@
 
 }
 
-.sidebar_menu .btn_two{
+.sidebar_menu .btn_two i{
     color: grey;
     font-size: 25px;
     line-height: 60px;
     position: absolute;
     left: 275px;
-    opacity: 0;
+    /* opacity: 0; */
+    cursor: pointer;
 }
 
 .sidebar_menu .menu li{
@@ -74,4 +76,39 @@
 
 .sidebar_menu .menu i {
     padding-right: 8px;
+}
+
+.sidebar_menu .social_media {
+    position: absolute;
+    left: 25%;
+    bottom: 50px;
+}
+
+.sidebar_menu .social_media i {
+    color: white;
+    opacity: 0.5;
+    padding: 0 5px;
+}
+
+#check {
+    display: none;
+}
+
+.sidebar_menu .menu li:hover {
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+
+
+}
+
+.btn_one i:hover {
+    font-size: 40px;
+}
+
+.btn_two i:hover {
+    font-size: 30px;
+}
+
+.sidebar_menu .social_media i:hover {
+    opacity: 1;
+    transform: scale(1.1);
 }
