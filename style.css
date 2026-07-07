@@ -44,9 +44,34 @@
     font-weight: 500;
 }
 
-.sidebare_menu menu {
+.sidebar_menu menu {
     position: absolute;
     width: 100px;
     top: 80px;
 
+}
+
+.sidebar_menu .btn_two{
+    color: grey;
+    font-size: 25px;
+    line-height: 60px;
+    position: absolute;
+    left: 275px;
+    opacity: 0;
+}
+
+.sidebar_menu .menu li{
+    margin-top: 6px;
+    padding: 14px 20px;
+}
+
+.sidebar_menu .menu i,a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.sidebar_menu .menu i {
+    padding-right: 8px;
 }
